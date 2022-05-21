@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(rgba(225, 122, 122, .8) 100%, rgba(255, 122, 122,.7) 100%), url('../images/bg-intro-desktop.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 150px;
+}
+
+.desktop-bg {display:flex;}
+
+.text h1{
+    font-size: 40px;
+    padding: 50px 120px 0px 0px;
+    line-height: 45px;
+color: #fff;
+}
+
+.text p{
+    padding: 25px 80px 10px 0px;
+    color:#fff;
+    font-size: 13px;
+}
+
+.form-container{
+    display: grid;
+    place-items: center;
+}
+.form-container label{
+    background: hsl(248, 32%, 49%);
+    padding: 15px 90px;
+    width: 100%;
+    margin-bottom:10px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 7px hsl(248, 32%, 40%);
+
+
+}
+form{
+    margin-top: 10px;
+    padding: 40px 30px 40px 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 10px rgba(92, 91, 91, 0.233);
+}
+form input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: .5px solid silver;
+    border-radius: 8px;
+}
+
+input::-webkit-input-placeholder{
+    padding-left: 2px;
+}
+form button{
+    background-color: #37cc8a;
+    width: 100%;
+    border: none;
+    box-shadow: 0px 7px #2db477;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+form p{
+    text-align: center;
+font-size: 10px;
+}
+form span{
+    color: red;
+}
+
+ 
+@
